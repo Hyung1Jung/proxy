@@ -19,10 +19,6 @@ public class OrderControllerV3 {
     @GetMapping("/v3/request")
     public String request(String itemId) {
         orderService.orderItem(itemId);
-        System.out.println("tㅁㄴㅇㅁㄴㅇt");
-        System.out.println("test");
-        System.out.println("test");
-        System.out.println("test");
         return "ok";
     }
 
